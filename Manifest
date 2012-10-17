@@ -1,2 +1,3 @@
 RegistrationClassName: com.sun.star.comp.xsltfilter.XSLTransformer
 UNO-Type-Path: 
+Class-Path: saxon9.jar
