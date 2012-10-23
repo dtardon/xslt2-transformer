@@ -8,7 +8,13 @@
     <identifier value="org.libreoffice.JavaXSLT2Transformer"/>
 
     <dependencies>
-        <dep:LibreOffice-minimal-version value="3.7"/>
+        <!-- Technically, this is incorrect, because the code uses an
+        interface that only exists in 3.7. But it allows libreoffice
+        maintainers in Linux distributions to backport the work to 3.6
+        release. It is harmless, because the transformer service from
+        this extension would not be used in unpatched 3.6 due to a
+        different service name. -->
+        <dep:LibreOffice-minimal-version value="3.6"/>
     </dependencies>
 
     <version value="1.0.0"/>
