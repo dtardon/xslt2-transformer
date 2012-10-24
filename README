@@ -1,0 +1,5 @@
+This LibreOffice extension provides a transformer for XSLT-based
+import/export filters with support of XSLT 2.0 . It is intended to
+supplement the XSLT transformer that is part of LibreOffice
+installation, and that only supports XSLT 1.0, for filters that need
+XSLT 2.0.
